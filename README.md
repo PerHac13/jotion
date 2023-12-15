@@ -1,12 +1,13 @@
 # Jotion - Fullstack Notion Clone
 
-![Jotion Logo](./public/logo.svg)
+![Jotion Logo](./public/logo.svg?theme=light)
+![Jotion Logo](./public/logo-dark.svg?theme=dark)
 
 Welcome to Jotion, a Notion clone built with Next.js 13, React, Convex, and Tailwind. This project aims to replicate the core features of Notion while providing a powerful and flexible framework for building collaborative note-taking and documentation platforms.
 
 ## Live Site
 
-Explore Jotion on our [live site](https://jotion-note-taking-app-facelift2376.vercel.app/) (replace '#' with your actual live site URL).
+Explore Jotion on our [live site](https://jotion-note-taking-app-facelift2376.vercel.app/).
 
 ## Key Features
 
@@ -45,7 +46,6 @@ npm i
 ### Setup .env file
 
 ```js
-# Deployment used by `npx convex dev`
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 
