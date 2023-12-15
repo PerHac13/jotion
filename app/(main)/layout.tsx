@@ -4,9 +4,9 @@ import { useConvexAuth } from "convex/react";
 import { redirect } from "next/navigation";
 
 import { Spinner } from "@/components/spinner";
-
-import Navigation from "./_components/navigation";
 import { SearchCommand } from "@/components/search-command";
+
+import { Navigation } from "./_components/navigation";
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const { isAuthenticated, isLoading } = useConvexAuth();
@@ -18,6 +18,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       </div>
     );
   }
+
   if (!isAuthenticated) {
     return redirect("/");
   }
