@@ -34,7 +34,7 @@ Explore Jotion on our [live site](https://jotion-note-taking-app-facelift2376.ve
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/notion-clone-tutorial.git
+git clone https://github.com/PerHac13/notion-clone-tutorial.git
 ```
 
 ### Install packages
